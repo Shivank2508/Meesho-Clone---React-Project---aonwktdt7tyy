@@ -1,0 +1,17 @@
+.mininavbar-container{
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+.mininavbar-container > div{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin-left: 60px;
+}
+.mininavbar-container > div > div{
+    margin: 20px;
+    cursor: pointer ;
+}
+.mininavbar-container > div > div:hover{
+    color: darkmagenta;
+}
