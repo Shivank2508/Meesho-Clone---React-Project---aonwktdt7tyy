@@ -1,11 +1,12 @@
 import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import '../styles/App.css';
 import Mininavbar from './Mninavbar/Mininavbar';
 import Navbar from './Navbar/Navbar';
 import Products from './Products/Products';
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+
 import Product from './Product/Product';
-import Signup from './Signup/Signup';
+import Signup from './Signup/Signup.js';
 import Notfound from './Notfound';
 const App = () => {
 

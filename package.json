@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.3",
+    "dynamic-routes-webpack-plugin": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^4.8.0",
@@ -35,6 +36,7 @@
     "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
+    "@webpack-cli/serve": "^2.0.1",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",

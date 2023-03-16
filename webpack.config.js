@@ -1,11 +1,16 @@
 const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+// import { DynamicRoutesWebpackPlugin } from 'dynamic-routes-webpack-plugin'
+const DynamicRoutesWebpackPlugin = require('dynamic-routes-webpack-plugin')
 module.exports = {
-    entry: './src/index.js',
+    entry: ['dynamic-routes-webpack-plugin/lib/client.js', './src/index.js'],
 
     output: {
         path: path.join(__dirname, "/dist"),
         filename: "index_bundle.js",
+    },
+    devServer: {
+        historyApiFallback: true,
     },
     module: {
         rules: [
@@ -40,6 +45,11 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: "./src/index.html"
+        }),
+        new DynamicRoutesWebpackPlugin({
+
+            routes: path.routes
+
         })
     ],
     resolve: {
