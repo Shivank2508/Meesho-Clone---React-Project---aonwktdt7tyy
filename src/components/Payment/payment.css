@@ -1,0 +1,42 @@
+.payment-container{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: palevioletred;
+}
+
+.payment-main{
+    border:1px solid palevioletred;
+    text-align: center;
+    width: 50%;
+    margin: 20px 0px;
+    height: 400px;
+}
+.payment-input{
+    
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.payment-input >input{
+    width: 50%;
+    height: 40px;
+    border: 1px solid palevioletred;
+    border-radius: 5px;
+}
+.payment-input > button{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid palevioletred;
+}
+.payment-input > button :hover{
+    cursor: pointer;
+}

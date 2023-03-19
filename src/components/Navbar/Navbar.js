@@ -23,7 +23,7 @@ const Navbar = () => {
                     <h2><Link to='/signup'>Profile</Link></h2>
                 </div>
                 <div>
-                    <h2>Cart</h2>
+                    <h2 ><Link to='/cart'>Cart</Link></h2>
                 </div>
             </div>
         </div>

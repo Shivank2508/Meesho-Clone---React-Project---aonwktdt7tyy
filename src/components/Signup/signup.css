@@ -17,8 +17,10 @@
 }
 .signup-main > input{
     width: 40%;
-    height: 30px;
+    height: 40px;
     border-radius: 5px;
+    border: 1px solid darkmagenta;
+    font-size: medium;
 }
 .signup-main > button{
     background-color: white;
