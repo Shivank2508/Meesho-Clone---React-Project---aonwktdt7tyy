@@ -1,42 +1,43 @@
-.payment-container{
-   
+.payment{
+
+    width: 20%;
+    margin: 60px auto;
+    background: #fdf8f8;
+    padding: 30px 60px 40px 60px;
+    box-shadow: 2px 2px 3px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 10px 10px 10px #000;
+    border-radius: 10px;
+}
+
+.payment_input>input{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    color: palevioletred;
+    padding: 10px 15px;
+    margin: 5px 0;
+    display: inline-block;
+    box-sizing: border-box;
 }
 
-.payment-main{
-    border:1px solid palevioletred;
-    text-align: center;
-    width: 50%;
-    margin: 20px 0px;
-    height: 400px;
-}
-.payment-input{
-    
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    margin: 10px;
-    align-items: center;
-    justify-content: space-around;
+.payment_method{
+    margin: 10px auto;
+    padding: 10px;
+   
 }
 
-.payment-input >input{
-    width: 50%;
-    height: 40px;
-    border: 1px solid palevioletred;
-    border-radius: 5px;
+.payment_method>input{
+    margin: 10px 0;
 }
-.payment-input > button{
-    width: 50%;
-    height: 40px;
+
+.payment_method>button{
+    background-color: palevioletred;
+    border-style: none;
+    padding: 10px;
+    color: #fff;
     border-radius: 5px;
-    background-color: white;
-    border: 1px solid palevioletred;
+    margin:10px;
 }
-.payment-input > button :hover{
-    cursor: pointer;
+
+.validation{
+    color: red;
+    font-size: 15px;
+    font-weight: 400;
 }
