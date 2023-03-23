@@ -1,5 +1,5 @@
 
-import './cart.css'
+import './Cart.css'
 
 
 import React, { useState, useEffect } from 'react';
@@ -54,6 +54,7 @@ function CartPage() {
                             <input
                                 type="number"
                                 min="1"
+                                value={item.quantity}
                                 onChange={(event) => handleQuantityChange(index, event)}
                             />
                             <button onClick={() => handleRemoveClick(index)}>Remove</button>
